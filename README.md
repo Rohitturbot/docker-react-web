@@ -60,3 +60,7 @@ docker run -p 3001:3000 -v /app/node_modules/ -v $(pwd):/app rohityadav007/clien
 ```
 
 in this case `-v /app/node_modules/` will exclude from the mapping
+
+## override startup command from the docker-compose
+
+We can make use of `command` option
